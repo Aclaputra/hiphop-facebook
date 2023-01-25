@@ -4,7 +4,7 @@
 
 Hacklang &amp; HipHop Virtual Machine Examples
 
-references : https://hhvm.com/
+references : https://hhvm.com/, https://docs.hhvm.com/
 
 ## Installation : Linux
 Ubuntu :
