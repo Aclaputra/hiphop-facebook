@@ -18,6 +18,16 @@ add-apt-repository https://dl.hhvm.com/ubuntu
 apt-get update
 apt-get install hhvm
 ```
+Debian 8 Jessie, Debian 9 Stretch :
+```bash
+apt-get update
+apt-get install -y apt-transport-https software-properties-common
+apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xB4112585D386EB94
+
+add-apt-repository https://dl.hhvm.com/debian
+apt-get update
+apt-get install hhvm
+```
 
 ## The JIT Compiler
 Rather than directly interpret or compile source code directly to C++, HHVM compiles Hack into an intermediate bytecode. 
