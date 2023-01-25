@@ -1,6 +1,8 @@
 # hiphop-facebook
 Hacklang &amp; HipHop Virtual Machine Examples
 
+references : https://hhvm.com/
+
 ## The JIT Compiler
 Rather than directly interpret or compile source code directly to C++, HHVM compiles Hack into an intermediate bytecode. 
 This bytecode is then translated into x64 machine code dynamically at runtime by a just-in-time (JIT) compiler. 
