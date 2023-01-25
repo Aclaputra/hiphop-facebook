@@ -17,7 +17,7 @@ getting started :
 hh_client server/index.hh
 hhvm -m server -p 8080
 ```
-run specific app :
+run specific file :
 ```
 hhvm vectors.hack
 ```
