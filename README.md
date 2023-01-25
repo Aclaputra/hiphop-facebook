@@ -29,6 +29,24 @@ apt-get update
 apt-get install hhvm
 ```
 
+Other packages :
+```bash
+# Stable debug build that is suitable for debuggers like gdb
+apt-get install hhvm-dbg
+
+# Stable developer package that contains the headers so you can create extensions, etc.
+apt-get install hhvm-dev
+
+# Nightly build (Living on the edge, rebuilt everyday, possibly unstable)
+apt-get install hhvm-nightly
+
+# Nightly debug build
+apt-get install hhvm-nightly-dbg
+
+# Nightly developer build
+apt-get install hhvm-dev-nightly
+```
+
 ## The JIT Compiler
 Rather than directly interpret or compile source code directly to C++, HHVM compiles Hack into an intermediate bytecode. 
 This bytecode is then translated into x64 machine code dynamically at runtime by a just-in-time (JIT) compiler. 
