@@ -46,7 +46,7 @@ apt-get install hhvm-nightly-dbg
 # Nightly developer build
 apt-get install hhvm-dev-nightly
 ```
-## Installation Mac
+## Installation : Mac
 ```bash
 brew tap hhvm/hhvm
 brew install hhvm
