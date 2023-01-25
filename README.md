@@ -1,4 +1,7 @@
 # hiphop-facebook
+
+<img src="https://hhvm.com/static/logo.svg" height="100"/>
+
 Hacklang &amp; HipHop Virtual Machine Examples
 
 references : https://hhvm.com/
