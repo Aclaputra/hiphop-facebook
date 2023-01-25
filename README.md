@@ -8,3 +8,13 @@ Rather than directly interpret or compile source code directly to C++, HHVM comp
 This bytecode is then translated into x64 machine code dynamically at runtime by a just-in-time (JIT) compiler. 
 This compilation process allows for all sorts of optimizations that cannot be made in a statically compiled binary, 
 thus enabling higher performance of your Hack programs.
+
+getting started :
+```bash
+hh_client server/index.hh
+hhvm -m server -p 8080
+```
+run specific app :
+```
+hhvm vectors.hack
+```
