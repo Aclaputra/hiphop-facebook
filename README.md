@@ -6,7 +6,7 @@ Hacklang &amp; HipHop Virtual Machine Examples
 
 references : https://hhvm.com/
 
-## Installation
+## Installation : Linux
 Ubuntu :
 ```bash
 sudo su
@@ -45,6 +45,11 @@ apt-get install hhvm-nightly-dbg
 
 # Nightly developer build
 apt-get install hhvm-dev-nightly
+```
+## Installation Mac
+```bash
+brew tap hhvm/hhvm
+brew install hhvm
 ```
 
 ## The JIT Compiler
